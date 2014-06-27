@@ -12,6 +12,7 @@
 {
     IBOutlet UIImageView *ball;
     IBOutlet UIImageView  *desk;
+    //フリックをいじった
 
 }
 @end
