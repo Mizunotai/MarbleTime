@@ -13,6 +13,7 @@
     IBOutlet UIImageView *ball;
     IBOutlet UIImageView  *desk;
     //フリックをいじった
+    //今日もフリックのやついじった
 
 }
 @end
