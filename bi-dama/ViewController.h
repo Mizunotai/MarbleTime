@@ -10,9 +10,9 @@
 
 @interface ViewController : UIViewController
 {
-    UIImageView *ball;
-    UIImageView  *desk;
-
+  IBOutlet   UIImageView *desk;
+    float moveX;
+    float moveY;
     //フリックをいじった
     //今日もフリックのやついじった
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6181B481963F0CE00262159 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6181B471963F0CE00262159 /* HomeViewController.m */; };
 		B68031A2195D7872009B69A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A1195D7872009B69A7 /* Foundation.framework */; };
 		B68031A4195D7872009B69A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A3195D7872009B69A7 /* CoreGraphics.framework */; };
 		B68031A6195D7872009B69A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A5195D7872009B69A7 /* UIKit.framework */; };
@@ -37,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B6181B461963F0CE00262159 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		B6181B471963F0CE00262159 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		B680319E195D7872009B69A7 /* bi-dama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bi-dama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68031A1195D7872009B69A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B68031A3195D7872009B69A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,8 +124,6 @@
 				B68031B6195D7872009B69A7 /* ViewController.h */,
 				B68031B7195D7872009B69A7 /* ViewController.m */,
 				B68031B9195D7872009B69A7 /* Images.xcassets */,
-				B6181B461963F0CE00262159 /* HomeViewController.h */,
-				B6181B471963F0CE00262159 /* HomeViewController.m */,
 				B68031A8195D7872009B69A7 /* Supporting Files */,
 			);
 			path = "bi-dama";
@@ -207,7 +202,7 @@
 		B6803196195D7872009B69A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "大氣";
 				TargetAttributes = {
 					B68031BE195D7872009B69A7 = {
@@ -265,7 +260,6 @@
 				B68031B8195D7872009B69A7 /* ViewController.m in Sources */,
 				B68031B2195D7872009B69A7 /* AppDelegate.m in Sources */,
 				B68031AE195D7872009B69A7 /* main.m in Sources */,
-				B6181B481963F0CE00262159 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +313,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +351,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -416,7 +408,6 @@
 		B68031D4195D7872009B69A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bi-dama.app/bi-dama";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -439,7 +430,6 @@
 		B68031D5195D7872009B69A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bi-dama.app/bi-dama";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
