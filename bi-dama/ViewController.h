@@ -11,10 +11,7 @@
 @interface ViewController : UIViewController
 {
   IBOutlet   UIImageView *desk;
-    float moveX;
-    float moveY;
-    //フリックをいじった
-    //今日もフリックのやついじった
+    
 
 }
 @end
