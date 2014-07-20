@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B658BF05197B9A4900213D3F /* main_bidama.png in Resources */ = {isa = PBXBuildFile; fileRef = B658BF04197B9A4900213D3F /* main_bidama.png */; };
 		B68031A2195D7872009B69A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A1195D7872009B69A7 /* Foundation.framework */; };
 		B68031A4195D7872009B69A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A3195D7872009B69A7 /* CoreGraphics.framework */; };
 		B68031A6195D7872009B69A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A5195D7872009B69A7 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B658BF04197B9A4900213D3F /* main_bidama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main_bidama.png; path = "../toたいき/Swipe/main_bidama.png"; sourceTree = "<group>"; };
 		B680319E195D7872009B69A7 /* bi-dama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bi-dama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68031A1195D7872009B69A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B68031A3195D7872009B69A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +57,8 @@
 		B68031C8195D7872009B69A7 /* bi-damaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bi-damaTests-Info.plist"; sourceTree = "<group>"; };
 		B68031CA195D7872009B69A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B68031CC195D7872009B69A7 /* bi_damaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bi_damaTests.m; sourceTree = "<group>"; };
-		B68031D6195D78CC009B69A7 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
-		B68031D8195D78D8009B69A7 /* 机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "机.jpg"; sourceTree = "<group>"; };
+		B68031D6195D78CC009B69A7 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "bi-dama/ball.png"; sourceTree = "<group>"; };
+		B68031D8195D78D8009B69A7 /* 机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "机.jpg"; path = "bi-dama/机.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,9 @@
 		B6803195195D7872009B69A7 = {
 			isa = PBXGroup;
 			children = (
+				B658BF04197B9A4900213D3F /* main_bidama.png */,
+				B68031D8195D78D8009B69A7 /* 机.jpg */,
+				B68031D6195D78CC009B69A7 /* ball.png */,
 				B68031A7195D7872009B69A7 /* bi-dama */,
 				B68031C6195D7872009B69A7 /* bi-damaTests */,
 				B68031A0195D7872009B69A7 /* Frameworks */,
@@ -116,8 +121,6 @@
 		B68031A7195D7872009B69A7 /* bi-dama */ = {
 			isa = PBXGroup;
 			children = (
-				B68031D8195D78D8009B69A7 /* 机.jpg */,
-				B68031D6195D78CC009B69A7 /* ball.png */,
 				B68031B0195D7872009B69A7 /* AppDelegate.h */,
 				B68031B1195D7872009B69A7 /* AppDelegate.m */,
 				B68031B3195D7872009B69A7 /* Main.storyboard */,
@@ -238,6 +241,7 @@
 				B68031D9195D78D8009B69A7 /* 机.jpg in Resources */,
 				B68031AC195D7872009B69A7 /* InfoPlist.strings in Resources */,
 				B68031D7195D78CC009B69A7 /* ball.png in Resources */,
+				B658BF05197B9A4900213D3F /* main_bidama.png in Resources */,
 				B68031B5195D7872009B69A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
