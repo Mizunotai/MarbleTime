@@ -21,18 +21,24 @@
     // 画面の大きさを取得
    
     
+    
     UIImage *image1 =[UIImage imageNamed:@"机.jpg"];
     [desk setImage:image1];
     
-    
     moving = NO;
+    UIImage *img2 =[UIImage imageNamed:@"ball.png"];
+    ball = [[UIImageView alloc] initWithImage:img2];
+    ball.frame = [[UIScreen mainScreen]  bounds];
+    CGRect rect = CGRectMake(self.view.frame.size.width/2 - 15,self.view.frame.size.height-200, 30,  30);
+    ball.frame = rect;
+    [self.view addSubview:ball];
     
     // メインのビー玉を追加
-    UIImage *img = [UIImage imageNamed:@"ball.png"];
+    UIImage *img = [UIImage imageNamed:@"main_bidama.png"];
     mainBidama = [[UIImageView alloc] initWithImage:img];
     mainBidama.frame = [[UIScreen mainScreen]  bounds];
-    CGRect rect = CGRectMake(self.view.frame.size.width/2 - 15,self.view.frame.size.height-100, 30,  30);
-    mainBidama.frame = rect;
+    CGRect rect1= CGRectMake(self.view.frame.size.width/2 - 15,self.view.frame.size.height-100, 30,  30);
+    mainBidama.frame = rect1;
     [self.view addSubview:mainBidama];
     
     
@@ -69,7 +75,7 @@
         ballMoveX = - ballMoveX;
         //    speed += 0.01;
     }
-    if(mainBidama.center.x + mainBidama.bounds.size.width / 2 > main.size.width){
+    if(mainBidama.center.x +mainBidama.bounds.size.width / 2 > main.size.width){
         ballMoveX = - ballMoveX;
         //    speed += 0.01;
     }
@@ -77,18 +83,24 @@
     if(mainBidama.center.y - mainBidama.bounds.size.height / 2 < 0){
         ballMoveY = - ballMoveY;
         //    speed += 0.01;
-    }
-    if(mainBidama.center.y + mainBidama.bounds.size.height / 2 > main.size.height){
+    }       
+    if(mainBidama.center.y +mainBidama.bounds.size.height / 2 > main.size.height){
         ballMoveY = - ballMoveY;
         //    speed += 0.01;
     }
-        //ballとballのあたり判定
-    if ( powf((mainBidama.center.x - ball.center.x),2)+ powf((mainBidama.center.y -ball.center.y), 2) ){
-        ballMoveX =-ballMoveX;
-        ;
+//    //ballとballのあたり判tei
+    float kyori = (mainBidama.center.x - ball.center.x)*(mainBidama.center.x - ball.center.x)
+    +(mainBidama.center.y - ball.center.y)*(mainBidama.center.y- ball.center.y);
+    if (kyori<40*40) {
+        ballMoveX=-ballMoveX;
+        ballMoveY=-ballMoveY;
+        NSLog(@"ATARI:%.1f", kyori);
+    }else {
+        ballMoveX=+ballMoveX;
+        ballMoveY=+ballMoveY;
+        NSLog(@"HAZURE:%.1f", kyori);
         
     }
-    
     speed += 0.003;
     
     if(speed >= 0.7){
@@ -163,7 +175,7 @@
                                                    selector:@selector(ballMove:)
                                                    userInfo:nil
                                                     repeats:YES];
-            moving = YES;
+            moving= YES;
         }
         
     }
@@ -171,7 +183,19 @@
 }
 
 
+//   if ( powf((mainBidama.center.x - ball.center.x),2)+ powf((mainBidama.center.y -ball.center.y), 2)
+//       powf((mainBidama.bounds.size.height && mainBidama.bounds.size.width + ball.bounds.size.height && ball.bounds.size.width /2), 2) ){
+//    ballMoveY=-ballMoveY;
+//   }
+//
 
+/*見えない斜め壁ができる
+//    if (powf(mainBidama.center.y - mainBidama.bounds.size.height/2 ,2) <
+//        powf(mainBidama.center.x-mainBidama.bounds.size.width/2, 2)) {
+//        ballMoveY=+ballMoveY;
+//        ballMoveX=+ballMoveX;
+//    }
+//*/
 
 
 
