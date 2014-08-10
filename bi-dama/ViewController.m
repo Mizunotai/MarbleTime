@@ -33,6 +33,7 @@
     ball.frame = rect;
     [self.view addSubview:ball];
     
+    
     // メインのビー玉を追加
     UIImage *img = [UIImage imageNamed:@"main_bidama.png"];
     mainBidama = [[UIImageView alloc] initWithImage:img];
