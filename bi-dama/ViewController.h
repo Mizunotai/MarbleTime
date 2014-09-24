@@ -7,15 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController : UIViewController<UIGestureRecognizerDelegate>
 {
+    
     IBOutlet   UIImageView *desk;
-     UIImageView *ball;
-    NSTimer *timer; //ビー玉動かす用のTimer
+     UIImageView *ball[10];
+    UIImageView  *GameOver;
+
+    UIImageView *mainBidama;
+    IBOutlet NSTimer *timer; //ビー玉動かす用のTimer
     bool moving;
     NSTimer *speedTimer;
-    UIImageView *mainBidama;
+   
+    int Playtime;
+    NSTimer *PlayTimers; //Play時間用のTimer
+    IBOutlet UILabel *TimeLabel;
+    
     float speed;  //speedを取りたい
 
     float ballMoveX ,ballMoveY;
@@ -24,6 +32,13 @@
     CGPoint startPoint,endPoint;    //タップ初めと終わりの座標習得
     CGFloat moveX,moveY;
     
-
+    AVAudioPlayer *audio;
+    AVAudioPlayer *audio2;
+    
+    int count;
+    int count2;
+    int count3;
+    int count4;
+    int count5;
 }
-@end
+-(IBAction)Back;

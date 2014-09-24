@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B658BF05197B9A4900213D3F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B658BF04197B9A4900213D3F /* ball.png */; };
+		B658BF05197B9A4900213D3F /* main_bidama.png in Resources */ = {isa = PBXBuildFile; fileRef = B658BF04197B9A4900213D3F /* main_bidama.png */; };
 		B68031A2195D7872009B69A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A1195D7872009B69A7 /* Foundation.framework */; };
 		B68031A4195D7872009B69A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A3195D7872009B69A7 /* CoreGraphics.framework */; };
 		B68031A6195D7872009B69A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A5195D7872009B69A7 /* UIKit.framework */; };
 		B68031AC195D7872009B69A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B68031AA195D7872009B69A7 /* InfoPlist.strings */; };
 		B68031AE195D7872009B69A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68031AD195D7872009B69A7 /* main.m */; };
 		B68031B2195D7872009B69A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68031B1195D7872009B69A7 /* AppDelegate.m */; };
-		B68031B5195D7872009B69A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68031B3195D7872009B69A7 /* Main.storyboard */; };
 		B68031B8195D7872009B69A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68031B7195D7872009B69A7 /* ViewController.m */; };
 		B68031BA195D7872009B69A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68031B9195D7872009B69A7 /* Images.xcassets */; };
 		B68031C1195D7872009B69A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031C0195D7872009B69A7 /* XCTest.framework */; };
@@ -22,8 +21,22 @@
 		B68031C3195D7872009B69A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68031A5195D7872009B69A7 /* UIKit.framework */; };
 		B68031CB195D7872009B69A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B68031C9195D7872009B69A7 /* InfoPlist.strings */; };
 		B68031CD195D7872009B69A7 /* bi_damaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68031CC195D7872009B69A7 /* bi_damaTests.m */; };
-		B68031D7195D78CC009B69A7 /* main_bidama.png in Resources */ = {isa = PBXBuildFile; fileRef = B68031D6195D78CC009B69A7 /* main_bidama.png */; };
-		B68031D9195D78D8009B69A7 /* 机.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B68031D8195D78D8009B69A7 /* 机.jpg */; };
+		B68031D7195D78CC009B69A7 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B68031D6195D78CC009B69A7 /* ball.png */; };
+		B68031D9195D78D8009B69A7 /* 机.png in Resources */ = {isa = PBXBuildFile; fileRef = B68031D8195D78D8009B69A7 /* 机.png */; };
+		B6EC062A19A19538005104E4 /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC062919A19538005104E4 /* LevelViewController.m */; };
+		B6EC067119A2D856005104E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EC066F19A2D856005104E4 /* Main.storyboard */; };
+		B6EC067519A471A9005104E4 /* green_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC067419A471A9005104E4 /* green_ball.png */; };
+		B6EC067B19A5BA9A005104E4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6EC067A19A5BA9A005104E4 /* audio.mp3 */; };
+		B6EC067D19A5BC9A005104E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EC067C19A5BC9A005104E4 /* AVFoundation.framework */; };
+		B6EC068719A5CF5F005104E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC068619A5CF5F005104E4 /* icon.png */; };
+		B6EC068B19A5D59D005104E4 /* GameOverBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC068A19A5D59D005104E4 /* GameOverBtn.png */; };
+		B6EC068D19A6B8C8005104E4 /* TopImg.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC068C19A6B8C8005104E4 /* TopImg.png */; };
+		B6EC069319A6C71F005104E4 /* ClearBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC069219A6C71F005104E4 /* ClearBtn.png */; };
+		B6EC069519A6CD4D005104E4 /* Lavel1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC069419A6CD4D005104E4 /* Lavel1.png */; };
+		B6EC069719A6CD55005104E4 /* Lavel2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC069619A6CD55005104E4 /* Lavel2.png */; };
+		B6EC069919A6CD60005104E4 /* Lavel3.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EC069819A6CD60005104E4 /* Lavel3.png */; };
+		B6EC069B19A6D43B005104E4 /* かっち.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6EC069A19A6D43B005104E4 /* かっち.mp3 */; };
+		B6EC06A119A88AD7005104E4 /* bi-dama-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EC06A019A88AD7005104E4 /* bi-dama-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B658BF04197B9A4900213D3F /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "../toたいき/Swipe/ball.png"; sourceTree = "<group>"; };
+		B658BF04197B9A4900213D3F /* main_bidama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main_bidama.png; path = "../toたいき/Swipe/main_bidama.png"; sourceTree = "<group>"; };
 		B680319E195D7872009B69A7 /* bi-dama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bi-dama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68031A1195D7872009B69A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B68031A3195D7872009B69A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B68031A5195D7872009B69A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B68031A9195D7872009B69A7 /* bi-dama-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bi-dama-Info.plist"; sourceTree = "<group>"; };
 		B68031AB195D7872009B69A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B68031AD195D7872009B69A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B68031AF195D7872009B69A7 /* bi-dama-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bi-dama-Prefix.pch"; sourceTree = "<group>"; };
 		B68031B0195D7872009B69A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B68031B1195D7872009B69A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B68031B4195D7872009B69A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B68031B6195D7872009B69A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B68031B7195D7872009B69A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B68031B9195D7872009B69A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -57,8 +68,23 @@
 		B68031C8195D7872009B69A7 /* bi-damaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bi-damaTests-Info.plist"; sourceTree = "<group>"; };
 		B68031CA195D7872009B69A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B68031CC195D7872009B69A7 /* bi_damaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bi_damaTests.m; sourceTree = "<group>"; };
-		B68031D6195D78CC009B69A7 /* main_bidama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main_bidama.png; path = "bi-dama/main_bidama.png"; sourceTree = "<group>"; };
-		B68031D8195D78D8009B69A7 /* 机.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "机.jpg"; path = "bi-dama/机.jpg"; sourceTree = "<group>"; };
+		B68031D6195D78CC009B69A7 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "bi-dama/ball.png"; sourceTree = "<group>"; };
+		B68031D8195D78D8009B69A7 /* 机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "机.png"; path = "bi-dama/机.png"; sourceTree = "<group>"; };
+		B6EC062819A19538005104E4 /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
+		B6EC062919A19538005104E4 /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		B6EC067019A2D856005104E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = ../../azumi2/azumi2/en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6EC067419A471A9005104E4 /* green_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_ball.png; path = ../green_ball.png; sourceTree = "<group>"; };
+		B6EC067A19A5BA9A005104E4 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audio.mp3; path = ../audio.mp3; sourceTree = "<group>"; };
+		B6EC067C19A5BC9A005104E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6EC068619A5CF5F005104E4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B6EC068A19A5D59D005104E4 /* GameOverBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOverBtn.png; sourceTree = "<group>"; };
+		B6EC068C19A6B8C8005104E4 /* TopImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopImg.png; sourceTree = "<group>"; };
+		B6EC069219A6C71F005104E4 /* ClearBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClearBtn.png; sourceTree = "<group>"; };
+		B6EC069419A6CD4D005104E4 /* Lavel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lavel1.png; sourceTree = "<group>"; };
+		B6EC069619A6CD55005104E4 /* Lavel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lavel2.png; sourceTree = "<group>"; };
+		B6EC069819A6CD60005104E4 /* Lavel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lavel3.png; sourceTree = "<group>"; };
+		B6EC069A19A6D43B005104E4 /* かっち.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "かっち.mp3"; sourceTree = "<group>"; };
+		B6EC06A019A88AD7005104E4 /* bi-dama-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "bi-dama-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EC067D19A5BC9A005104E4 /* AVFoundation.framework in Frameworks */,
 				B68031A4195D7872009B69A7 /* CoreGraphics.framework in Frameworks */,
 				B68031A6195D7872009B69A7 /* UIKit.framework in Frameworks */,
 				B68031A2195D7872009B69A7 /* Foundation.framework in Frameworks */,
@@ -88,15 +115,26 @@
 		B6803195195D7872009B69A7 = {
 			isa = PBXGroup;
 			children = (
-				B658BF04197B9A4900213D3F /* ball.png */,
-				B68031D8195D78D8009B69A7 /* 机.jpg */,
-				B68031D6195D78CC009B69A7 /* main_bidama.png */,
+				B6EC069A19A6D43B005104E4 /* かっち.mp3 */,
+				B6EC069419A6CD4D005104E4 /* Lavel1.png */,
+				B6EC069619A6CD55005104E4 /* Lavel2.png */,
+				B6EC069819A6CD60005104E4 /* Lavel3.png */,
+				B6EC068C19A6B8C8005104E4 /* TopImg.png */,
+				B6EC068A19A5D59D005104E4 /* GameOverBtn.png */,
+				B6EC067A19A5BA9A005104E4 /* audio.mp3 */,
+				B6EC069219A6C71F005104E4 /* ClearBtn.png */,
+				B6EC067419A471A9005104E4 /* green_ball.png */,
+				B6EC068619A5CF5F005104E4 /* icon.png */,
+				B658BF04197B9A4900213D3F /* main_bidama.png */,
+				B68031D8195D78D8009B69A7 /* 机.png */,
+				B68031D6195D78CC009B69A7 /* ball.png */,
 				B68031A7195D7872009B69A7 /* bi-dama */,
 				B68031C6195D7872009B69A7 /* bi-damaTests */,
 				B68031A0195D7872009B69A7 /* Frameworks */,
 				B680319F195D7872009B69A7 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		B680319F195D7872009B69A7 /* Products */ = {
 			isa = PBXGroup;
@@ -110,6 +148,7 @@
 		B68031A0195D7872009B69A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6EC067C19A5BC9A005104E4 /* AVFoundation.framework */,
 				B68031A1195D7872009B69A7 /* Foundation.framework */,
 				B68031A3195D7872009B69A7 /* CoreGraphics.framework */,
 				B68031A5195D7872009B69A7 /* UIKit.framework */,
@@ -123,7 +162,9 @@
 			children = (
 				B68031B0195D7872009B69A7 /* AppDelegate.h */,
 				B68031B1195D7872009B69A7 /* AppDelegate.m */,
-				B68031B3195D7872009B69A7 /* Main.storyboard */,
+				B6EC066F19A2D856005104E4 /* Main.storyboard */,
+				B6EC062819A19538005104E4 /* LevelViewController.h */,
+				B6EC062919A19538005104E4 /* LevelViewController.m */,
 				B68031B6195D7872009B69A7 /* ViewController.h */,
 				B68031B7195D7872009B69A7 /* ViewController.m */,
 				B68031B9195D7872009B69A7 /* Images.xcassets */,
@@ -135,7 +176,7 @@
 		B68031A8195D7872009B69A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B68031A9195D7872009B69A7 /* bi-dama-Info.plist */,
+				B6EC06A019A88AD7005104E4 /* bi-dama-Info.plist */,
 				B68031AA195D7872009B69A7 /* InfoPlist.strings */,
 				B68031AD195D7872009B69A7 /* main.m */,
 				B68031AF195D7872009B69A7 /* bi-dama-Prefix.pch */,
@@ -208,6 +249,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "大氣";
 				TargetAttributes = {
+					B680319D195D7872009B69A7 = {
+						DevelopmentTeam = EAJ5XMYFEV;
+					};
 					B68031BE195D7872009B69A7 = {
 						TestTargetID = B680319D195D7872009B69A7;
 					};
@@ -237,12 +281,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EC068B19A5D59D005104E4 /* GameOverBtn.png in Resources */,
+				B6EC069519A6CD4D005104E4 /* Lavel1.png in Resources */,
 				B68031BA195D7872009B69A7 /* Images.xcassets in Resources */,
-				B68031D9195D78D8009B69A7 /* 机.jpg in Resources */,
+				B6EC069319A6C71F005104E4 /* ClearBtn.png in Resources */,
+				B6EC069B19A6D43B005104E4 /* かっち.mp3 in Resources */,
+				B68031D9195D78D8009B69A7 /* 机.png in Resources */,
+				B6EC06A119A88AD7005104E4 /* bi-dama-Info.plist in Resources */,
 				B68031AC195D7872009B69A7 /* InfoPlist.strings in Resources */,
-				B68031D7195D78CC009B69A7 /* main_bidama.png in Resources */,
-				B658BF05197B9A4900213D3F /* ball.png in Resources */,
-				B68031B5195D7872009B69A7 /* Main.storyboard in Resources */,
+				B6EC067B19A5BA9A005104E4 /* audio.mp3 in Resources */,
+				B6EC067119A2D856005104E4 /* Main.storyboard in Resources */,
+				B6EC068719A5CF5F005104E4 /* icon.png in Resources */,
+				B6EC069719A6CD55005104E4 /* Lavel2.png in Resources */,
+				B68031D7195D78CC009B69A7 /* ball.png in Resources */,
+				B6EC068D19A6B8C8005104E4 /* TopImg.png in Resources */,
+				B658BF05197B9A4900213D3F /* main_bidama.png in Resources */,
+				B6EC067519A471A9005104E4 /* green_ball.png in Resources */,
+				B6EC069919A6CD60005104E4 /* Lavel3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +319,7 @@
 				B68031B8195D7872009B69A7 /* ViewController.m in Sources */,
 				B68031B2195D7872009B69A7 /* AppDelegate.m in Sources */,
 				B68031AE195D7872009B69A7 /* main.m in Sources */,
+				B6EC062A19A19538005104E4 /* LevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,20 +350,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B68031B3195D7872009B69A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B68031B4195D7872009B69A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B68031C9195D7872009B69A7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B68031CA195D7872009B69A7 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6EC066F19A2D856005104E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EC067019A2D856005104E4 /* en */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -388,10 +444,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bi-dama/bi-dama-Prefix.pch";
 				INFOPLIST_FILE = "bi-dama/bi-dama-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -401,10 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bi-dama/bi-dama-Prefix.pch";
 				INFOPLIST_FILE = "bi-dama/bi-dama-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
